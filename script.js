@@ -2,7 +2,7 @@ const galeria = document.querySelector("#galeria")
 
 function createPost(){
 
-for (let index = 1; index < 826; index++) {
+for (let index = 1; index < 827; index++) {
     fetch(`https://rickandmortyapi.com/api/character/${index}`)
     .then((response) => response.json())
     .then(rickymorty => {
